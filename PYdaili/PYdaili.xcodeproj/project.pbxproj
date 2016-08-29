@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1830E9971D46FE0C006422CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E9961D46FE0C006422CE /* main.m */; };
+		1830E99A1D46FE0C006422CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E9991D46FE0C006422CE /* AppDelegate.m */; };
+		1830E99D1D46FE0C006422CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E99C1D46FE0C006422CE /* ViewController.m */; };
+		1830E9A01D46FE0C006422CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830E99E1D46FE0C006422CE /* Main.storyboard */; };
+		1830E9A21D46FE0C006422CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1830E9A11D46FE0C006422CE /* Assets.xcassets */; };
+		1830E9A51D46FE0C006422CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830E9A31D46FE0C006422CE /* LaunchScreen.storyboard */; };
+		1830E9B01D46FE0C006422CE /* PYdailiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E9AF1D46FE0C006422CE /* PYdailiTests.m */; };
+		1830E9BB1D46FE0C006422CE /* PYdailiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E9BA1D46FE0C006422CE /* PYdailiUITests.m */; };
+		1830E9CA1D46FE6C006422CE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830E9C91D46FE6C006422CE /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1830E9AC1D46FE0C006422CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1830E98A1D46FE0C006422CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1830E9911D46FE0C006422CE;
+			remoteInfo = PYdaili;
+		};
+		1830E9B71D46FE0C006422CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1830E98A1D46FE0C006422CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1830E9911D46FE0C006422CE;
+			remoteInfo = PYdaili;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1830E9921D46FE0C006422CE /* PYdaili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYdaili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830E9961D46FE0C006422CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1830E9981D46FE0C006422CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1830E9991D46FE0C006422CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1830E99B1D46FE0C006422CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1830E99C1D46FE0C006422CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1830E99F1D46FE0C006422CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1830E9A11D46FE0C006422CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1830E9A41D46FE0C006422CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1830E9A61D46FE0C006422CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1830E9AB1D46FE0C006422CE /* PYdailiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYdailiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830E9AF1D46FE0C006422CE /* PYdailiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYdailiTests.m; sourceTree = "<group>"; };
+		1830E9B11D46FE0C006422CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1830E9B61D46FE0C006422CE /* PYdailiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYdailiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830E9BA1D46FE0C006422CE /* PYdailiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYdailiUITests.m; sourceTree = "<group>"; };
+		1830E9BC1D46FE0C006422CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1830E9C81D46FE6C006422CE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1830E9C91D46FE6C006422CE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1830E98F1D46FE0C006422CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9A81D46FE0C006422CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9B31D46FE0C006422CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1830E9891D46FE0C006422CE = {
+			isa = PBXGroup;
+			children = (
+				1830E9941D46FE0C006422CE /* PYdaili */,
+				1830E9AE1D46FE0C006422CE /* PYdailiTests */,
+				1830E9B91D46FE0C006422CE /* PYdailiUITests */,
+				1830E9931D46FE0C006422CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1830E9931D46FE0C006422CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1830E9921D46FE0C006422CE /* PYdaili.app */,
+				1830E9AB1D46FE0C006422CE /* PYdailiTests.xctest */,
+				1830E9B61D46FE0C006422CE /* PYdailiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1830E9941D46FE0C006422CE /* PYdaili */ = {
+			isa = PBXGroup;
+			children = (
+				1830E9981D46FE0C006422CE /* AppDelegate.h */,
+				1830E9991D46FE0C006422CE /* AppDelegate.m */,
+				1830E99B1D46FE0C006422CE /* ViewController.h */,
+				1830E99C1D46FE0C006422CE /* ViewController.m */,
+				1830E9C81D46FE6C006422CE /* RootViewController.h */,
+				1830E9C91D46FE6C006422CE /* RootViewController.m */,
+				1830E99E1D46FE0C006422CE /* Main.storyboard */,
+				1830E9A11D46FE0C006422CE /* Assets.xcassets */,
+				1830E9A31D46FE0C006422CE /* LaunchScreen.storyboard */,
+				1830E9A61D46FE0C006422CE /* Info.plist */,
+				1830E9951D46FE0C006422CE /* Supporting Files */,
+			);
+			path = PYdaili;
+			sourceTree = "<group>";
+		};
+		1830E9951D46FE0C006422CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1830E9961D46FE0C006422CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1830E9AE1D46FE0C006422CE /* PYdailiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1830E9AF1D46FE0C006422CE /* PYdailiTests.m */,
+				1830E9B11D46FE0C006422CE /* Info.plist */,
+			);
+			path = PYdailiTests;
+			sourceTree = "<group>";
+		};
+		1830E9B91D46FE0C006422CE /* PYdailiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1830E9BA1D46FE0C006422CE /* PYdailiUITests.m */,
+				1830E9BC1D46FE0C006422CE /* Info.plist */,
+			);
+			path = PYdailiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1830E9911D46FE0C006422CE /* PYdaili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830E9BF1D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdaili" */;
+			buildPhases = (
+				1830E98E1D46FE0C006422CE /* Sources */,
+				1830E98F1D46FE0C006422CE /* Frameworks */,
+				1830E9901D46FE0C006422CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYdaili;
+			productName = PYdaili;
+			productReference = 1830E9921D46FE0C006422CE /* PYdaili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1830E9AA1D46FE0C006422CE /* PYdailiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830E9C21D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdailiTests" */;
+			buildPhases = (
+				1830E9A71D46FE0C006422CE /* Sources */,
+				1830E9A81D46FE0C006422CE /* Frameworks */,
+				1830E9A91D46FE0C006422CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1830E9AD1D46FE0C006422CE /* PBXTargetDependency */,
+			);
+			name = PYdailiTests;
+			productName = PYdailiTests;
+			productReference = 1830E9AB1D46FE0C006422CE /* PYdailiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1830E9B51D46FE0C006422CE /* PYdailiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830E9C51D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdailiUITests" */;
+			buildPhases = (
+				1830E9B21D46FE0C006422CE /* Sources */,
+				1830E9B31D46FE0C006422CE /* Frameworks */,
+				1830E9B41D46FE0C006422CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1830E9B81D46FE0C006422CE /* PBXTargetDependency */,
+			);
+			name = PYdailiUITests;
+			productName = PYdailiUITests;
+			productReference = 1830E9B61D46FE0C006422CE /* PYdailiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1830E98A1D46FE0C006422CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1830E9911D46FE0C006422CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					1830E9AA1D46FE0C006422CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 1830E9911D46FE0C006422CE;
+					};
+					1830E9B51D46FE0C006422CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 1830E9911D46FE0C006422CE;
+					};
+				};
+			};
+			buildConfigurationList = 1830E98D1D46FE0C006422CE /* Build configuration list for PBXProject "PYdaili" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1830E9891D46FE0C006422CE;
+			productRefGroup = 1830E9931D46FE0C006422CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1830E9911D46FE0C006422CE /* PYdaili */,
+				1830E9AA1D46FE0C006422CE /* PYdailiTests */,
+				1830E9B51D46FE0C006422CE /* PYdailiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1830E9901D46FE0C006422CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830E9A51D46FE0C006422CE /* LaunchScreen.storyboard in Resources */,
+				1830E9A21D46FE0C006422CE /* Assets.xcassets in Resources */,
+				1830E9A01D46FE0C006422CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9A91D46FE0C006422CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9B41D46FE0C006422CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1830E98E1D46FE0C006422CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830E99D1D46FE0C006422CE /* ViewController.m in Sources */,
+				1830E99A1D46FE0C006422CE /* AppDelegate.m in Sources */,
+				1830E9CA1D46FE6C006422CE /* RootViewController.m in Sources */,
+				1830E9971D46FE0C006422CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9A71D46FE0C006422CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830E9B01D46FE0C006422CE /* PYdailiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830E9B21D46FE0C006422CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830E9BB1D46FE0C006422CE /* PYdailiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1830E9AD1D46FE0C006422CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1830E9911D46FE0C006422CE /* PYdaili */;
+			targetProxy = 1830E9AC1D46FE0C006422CE /* PBXContainerItemProxy */;
+		};
+		1830E9B81D46FE0C006422CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1830E9911D46FE0C006422CE /* PYdaili */;
+			targetProxy = 1830E9B71D46FE0C006422CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1830E99E1D46FE0C006422CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1830E99F1D46FE0C006422CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1830E9A31D46FE0C006422CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1830E9A41D46FE0C006422CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1830E9BD1D46FE0C006422CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1830E9BE1D46FE0C006422CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1830E9C01D46FE0C006422CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYdaili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdaili";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1830E9C11D46FE0C006422CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYdaili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdaili";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1830E9C31D46FE0C006422CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYdailiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdailiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYdaili.app/PYdaili";
+			};
+			name = Debug;
+		};
+		1830E9C41D46FE0C006422CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYdailiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdailiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYdaili.app/PYdaili";
+			};
+			name = Release;
+		};
+		1830E9C61D46FE0C006422CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYdailiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdailiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYdaili;
+			};
+			name = Debug;
+		};
+		1830E9C71D46FE0C006422CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYdailiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYdailiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYdaili;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1830E98D1D46FE0C006422CE /* Build configuration list for PBXProject "PYdaili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830E9BD1D46FE0C006422CE /* Debug */,
+				1830E9BE1D46FE0C006422CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1830E9BF1D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdaili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830E9C01D46FE0C006422CE /* Debug */,
+				1830E9C11D46FE0C006422CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1830E9C21D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdailiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830E9C31D46FE0C006422CE /* Debug */,
+				1830E9C41D46FE0C006422CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1830E9C51D46FE0C006422CE /* Build configuration list for PBXNativeTarget "PYdailiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830E9C61D46FE0C006422CE /* Debug */,
+				1830E9C71D46FE0C006422CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1830E98A1D46FE0C006422CE /* Project object */;
+}
